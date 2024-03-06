@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image_links</title>
+    <style>
+      header {
+        border-bottom: 1px solid;
+        padding: 10px;
+        margin: 0 -10px;
+        background-color: blanchedalmond;
+      }
+      nav a {
+        margin: 10px;
+        text-decoration: none;
+      }
+      nav {
+        text-align: right;
+      }
+      .tech {
+        width: 50%;
+        text-align: center;
+      }
+      .tec {
+        text-align: center;
+      }
+      main {
+        padding: 0 3%;
+      }
+      .section2 {background-color: blanchedalmond; margin: 0 -15px;}
+      .grid-container {display:grid;
+    padding: 20px; gap: 10px;}
+    .grid {text-align: center;}
+    .grid1 {grid-column: 1;
+    grid-row: 1 / span 2;}
+    .grid2 {grid-column: 2; grid-row: 1;}
+    .grid3 {grid-column: 2; grid-row: 2;}
+    @media (max-width: 760px) {
+        .grid1 {grid-column: 1;
+        grid-row: 1;}
+        .grid2 {grid-column: 1;
+        grid-row: 2;}
+        .grid3 {grid-column: 1;
+        grid-row: 3;}
+    }
+    #Menu {padding: 20px;}
+    footer {text-align: center; background-color: gray; margin: 0 -15px;}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#Home">Home</a>
+        <a href="#Gallery">Gallery</a>
+        <a href="#Menu">Menu</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h3>Home</h3>
+        <p>
+          Welcome to the world of technology, get to kmow more about technology.
+          <br />
+          <br />Technology is the use of scientific knowledge for practical
+          purposes or applications, whether in industry or in our everyday
+          lives. So, basically, whenever we use our scientific knowledge to
+          achieve some specific purpose, we're using technology.
+        </p>
+        <p class="tec">
+          <img
+            class="tech"
+            src="https://bernardmarr.com/wp-content/uploads/2022/04/The-10-Biggest-Technology-Trends-That-Will-Transform-The-Next-Decade.jpg"
+            alt="Technology"
+          />
+          <br />Word of technology
+        </p>
+      </section>
+      </main>
+      <section class="section2" id="Gallery"> <br>
+        <h3 style="padding: 0 30px";>Gallery</h3>
+        <p style="padding: 0 30px";> The term "nature" may refer to living plants and animals, geological processes,
+            weather, and physics, such as matter and energy. The five major food groups are
+            vegetables, fruits, grains, protein foods, and dairy.</p>
+            <div class="grid-container" style="padding: 30px">
+                <div class="grid1 grid"> <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-green-field-scenery-free-photo.jpg?w=600&quality=80" style="max-width: 100%; height: 100%;"> </div>
+                <div class="grid2 grid"> <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/magical-spring-forest-scenery-during-morning-breeze-free-photo.jpg?w=600&quality=80" style="max-width: 100%; height: auto;";> </div>
+                <div class="grid3 grid"> <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-beach-in-seychelles-free-photo.jpeg?w=600&quality=80" style="max-width: 100%; height: auto;";> </div>
+            </div>
+            <p style="text-align: center;"> Beauty of nature</p> <br>
+      </section>
+      <section id="Menu">
+        <h3> Menu</h3>
+        <p>A healthy diet should
+            contain mostly fruits and vegetables because these foods provide fiber and many
+            nutrients. The types of food ingested will have an impact on the health of a
+            being.</p>
+        <ol>
+            <li><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Fruit%2C_Vegetables_and_Grain_NCI_Visuals_Online.jpg/1280px-Fruit%2C_Vegetables_and_Grain_NCI_Visuals_Online.jpg" alt="Babana" title="External link" target="_blank">Babana</a></li>
+            <li><a href="https://imageproxy.wolt.com/venue/6232faaafd94b762808350de/ebcc50b6-a903-11ec-8d84-92cd96cd4d02_habib3.jpg" alt="Samosa" target="_blank" title="External link"> Samosa</a> </li>
+            <li><a href="https://media.post.rvohealth.io/wp-content/uploads/2020/08/reasons-to-eat-real-food-1200x628-facebook-1200x628.jpg" alt="Orangr" target="_blank" title="External link"> Orange</a> </li>
+        </ol>
+      </section>
+  </body>
+  <footer>
+    <p style="padding: 15px 0;"> Alright reserve|| Azeez Bankole</p>
+  </footer>
+</html>
