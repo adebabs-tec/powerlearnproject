@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    body {
+      padding: 0 2%;
+    }
+    h2 {
+      padding: 0 3%;
+      font-size: medium;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web3 assignment</title>
+  </head>
+  <body>
+    <h2>WELCOME TO MY WEB TECHNOLOGY PRACTICE</h2>
+    <p>This is my web technology week three assignment</p>
+    <p>Here i will be dive in to website form creation</p> <br>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required/> <br> <br>
+      <label for="date_birth">Date of birth:</label>
+      <input type="date" id="date_birth" required>
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" id="male" name="male" required> <label for="genger">Male</label> <br>
+        <input type="radio" id="female" name="male" required> <label for="female">Female</label>
+      </fieldset> <br>
+      <label for="address" name="address">Address:</label>
+      <input type="text" id="address" placeholder="Type your address" required> <br> <br>
+      <label for="Telephone">Telephone:</label>
+      <input type="text" id="Telephone" name="Telephone" placeholder="Type your contact" required> <br> <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your mail" required> <br> <br>
+      <label for="course">Course of study</label>
+      <select required>
+        <option>Computer</option>
+        <option>Literature</option>
+        <option>Physics</option>
+        <option>Mmathematics</option>
+        <option>Government</option>
+        <option>Other</option>
+      </select> <br> <br>
+      <label  for="Other">Other</label>
+      <input type="text" id="Other" name="Other" placeholder="Other course of study"> <br> <br> <br>
+      <button type="button">Register</button> <button type="button" style="text-align: center";>Cancel</button>
+    </form> 
+  </body>
+</html>￼Enter
